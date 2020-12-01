@@ -15,13 +15,13 @@ import unicodedata
 # In[20]:
 
 
-new_file = csv.reader(open('C:\\Users\\GABRIEL\\Documents\\UFPR\\Python\\PythonScripts\\Base_Dados\\CAP\\CDB1.csv', 'r',encoding='utf8'))
+new_file = csv.reader(open('your_file', 'r',encoding='utf8'))
 
 
 # In[21]:
 
 
-resultado = open('C:\\Users\\GABRIEL\\Documents\\UFPR\\Python\\PythonScripts\\pos_processado.csv', 'w')
+resultado = open('new_result', 'w')
 
 
 # In[22]:
